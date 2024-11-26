@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Parkinsans", sans-serif;
+    font-style: normal;
+
+}
+.mainbody{
+    width: 70dvw;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240);
+    height: 100dvh;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.main{
+    display: flex;
+    /* background-color: red; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    margin-top: 30px;
+}
+.round{
+    border-radius: 20px;
+}
+
+.text {
+    /* width: 60dvw; */
+    /* background-color: blueviolet; */
+    font-size: 20px;
+
+
+}
+.img{
+    width: 65dvw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(200, 193, 193);
+}
+
+li {
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.nav li{
+    display: inline;
+    margin-right: 40px;
+}
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.hire {
+    background-color: black;
+    color: white;
+}
+
+.text button{
+    margin-top: 20px;
+}
+
+.img {
+    /* background-color: red; */
+    
+    
+}
+
+.img img {
+
+    height: 700px;
+
+} 
+
+.text {
+    margin-top: 70px;
+}
